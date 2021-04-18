@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+<style>
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.gallery:hover {
+  border: 1px solid #777;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  margin-top: 18%;
+  margin-left: 60px;
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bg-image {
+  background: url('home.jpeg') no-repeat center;
+  background-size: cover;
+  height: 700px;
+  position: relative;
+  margin-top: 0px;
+  
+}
+.center-text {
+  text-align: center;
+  position: relative;
+  font-family:'Allura', cursive; 
+  top: 33%;
+  left:50%;
+  bottom: 50%;
+  animation: text 4s infinite;
+  animation-iteration-count: 1;
+  animation-delay: 1s;
+  transform: translate(-50%, -50%);
+  color: black;
+  }
+@keyframes text {
+  from {left: 0%;}
+  to {left: 50%;}
+}
+  body{
+    background: #fff3e2;
+  }
+h3{
+  margin-top: 8%;
+  margin-left: 20px;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.textPara{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 80px;
+}
+.image{
+  margin-right: 30px;
+  margin-top: 0px;
+  height: auto;
+}
+</style>
+</head>
+<body>
+  <div class="bg-image">
+    <div class="center-text">
+      <h2 style="font-size:55px" ><b>Web Development</b></h3>
+        <h1 style="font-size:40px"><b>Technical Art</b></h1>
+    </div>
+  </div>
+  <h3>Web Technologies</h3>
+  <div class="container">
+  
+  <div class="text">
+   <p class="textPara"><b><i>Web Development is a digitial art which help people to reach their customers in an innovative manner.
+    In simple it is the creation and maintainance of websites. Web application development is the creation of application programs that reside on remote servers and are
+    delivered to the user's device over the internet. A web application also called as webapp does not need to be downloaded and is instead accessed
+    through a network. An end user can access a web application through a web browser such as Google chrome, Safari, or Mozilla FireFox. Many of the web applications are written in Java Script, Cascading Style Sheets(CSS) and HTML. Mostly web develpoers use languages like HTML, CSS, Javascript, XML and many more. Our site WT (Web Technologies) intend to provide a platform 
+    where web enthusiasts can get an access to study material and even have a chance to publish their project in our site.
+  </i></b></p></div>
+  <div class="image">
+  <img src="about.jpeg" height="300" width="300" />
+  </div>
+  </div>
+</body>
+</html>
