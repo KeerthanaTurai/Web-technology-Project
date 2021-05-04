@@ -1,0 +1,133 @@
+  
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('https://images.pexels.com/photos/33999/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260')no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.team{
+    display:flex;
+    margin-left: 10%;
+    text-align:center;
+    width:auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.team .team_member{
+    background: orange;
+    opacity: 0.9;
+    margin:6px;
+    margin-bottom:50px;
+    width:350px;
+    height: 250px;
+    padding:20px;
+    line-height: 20px;
+    position: relative;
+}
+.team .team_member h3{
+    color:rgb(189, 26, 26);
+    font-size: 18px;
+    margin-top:50px;
+}
+.team .team_member p.role{
+    color:rgb(11, 10, 124);
+    font-size :16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin:12px 0;
+}
+.team .team_member p.info{
+    color:rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size :14px;
+    font-weight: bold;
+    margin:12px 0;
+}
+.wrapper{
+    margin-top:3%;
+}
+.wrapper h6{
+    font-family:'Allura',cursive;
+    font-size: 90px;
+    text-align: center;
+}
+.wrapper h2{
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size:20px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.team .team_member .team_img{
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        top: -60px;
+        left: 20%;
+        transform:translate(-50%);
+
+}
+.team .team_member .team_img img{
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    border-radius: 40%;
+   
+    
+}
+.wrapper h4{
+    font-family:'Allura',cursive;
+    font-size: 40px;
+    text-align: center;
+}
+.wrapper h5{
+    margin-top: 50px;
+    font-size: 20px;
+    color:red;
+}
+.dev{
+    display:flex;
+    margin-left: 10%;
+    text-align:center;
+    width:auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.dev .dev_mem{
+    background: orange;
+    opacity: 0.8;
+    margin:6px;
+    margin-bottom:50px;
+    width:350px;
+    height: 250px;
+    padding:20px;
+    line-height: 20px;
+    position: relative;
+}
+.dev .dev_mem h4{
+    color:rgb(189, 26, 26);
+    font-size: 18px;
+    margin-top:50px;
+}
+.dev .dev_mem p.dev_role{
+    color:rgb(11, 10, 124);
+    font-size :16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin:12px 0;
+}
+.dev .dev_mem p.dinfo{
+    color:rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size :16px;
+    font-weight: bold;
+    margin:12px 0;
+}
